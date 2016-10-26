@@ -1,11 +1,4 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
-	  
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/jirehupx/ConfigData  
+      defaultZone: http://localhost:8010/eureka/	  
