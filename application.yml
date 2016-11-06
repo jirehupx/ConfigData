@@ -3,10 +3,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
-spring:
-  profiles:
-    active: lab-4-noun
-	
 ---
 spring:
   profiles: lab-4-subject
@@ -29,5 +25,5 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: lab-4-noun
+  profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog  	  
