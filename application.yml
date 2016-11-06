@@ -4,8 +4,9 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 
 spring:
-  profiles.active: lab-4-noun
-  
+  profiles:
+    active: lab-4-noun
+	
 ---
 spring:
   profiles: lab-4-subject
